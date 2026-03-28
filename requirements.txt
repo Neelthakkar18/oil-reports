@@ -6,3 +6,4 @@ scikit-learn
 requests
 openai
 reportlab
+textblob
