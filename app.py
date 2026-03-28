@@ -173,7 +173,7 @@ def load_oil_data():
     """Load and cache oil price data"""
     try:
         # Try to load from Excel file
-        df = pd.read_excel("data/oil_data.xlsx")
+        df = pd.read_excel("oil_data.xlsx")
         df['date'] = pd.to_datetime(df['date'])
         return df
     except:
